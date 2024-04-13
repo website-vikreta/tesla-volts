@@ -17,7 +17,7 @@
     }
   ],
   "description": "Backend for Electric Vehicle charging station",
-  "author": "Open E-Mobility <open-e-mobility@sap.com>",
+  "author": "TeslaVolts",
   "homepage": "https://github.com/sap-labs-france/ev-server",
   "main": "dist/start.js",
   "scripts": {

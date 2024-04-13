@@ -23,7 +23,7 @@
   },
   "superadmin": {
     "username": "super.admin@sap.com",
-    "password": ""
+    "password": "admin@1234#"
   },
   "admin": {
     "username": "admin@sap.com",

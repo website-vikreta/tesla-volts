@@ -12,7 +12,7 @@
       "type": "ocpp",
       "implementation": "soap",
       "protocol": "http",
-      "host": "server",
+      "host": "0.0.0.0",
       "port": 8000,
       "debug": false
     },
@@ -20,14 +20,14 @@
       "type": "ocpp",
       "implementation": "json",
       "protocol": "ws",
-      "host": "server",
+      "host": "0.0.0.0",
       "port": 8010,
       "debug": false
     }
   ],
   "CentralSystemRestService": {
     "protocol": "http",
-    "host": "server",
+    "host": "0.0.0.0",
     "port": 81,
     "userTokenKey": "s3A9js135sdf384hgj384ku38lilckjflskdjf2797boeiBhxQDM1GInRith",
     "userTokenLifetimeHours": 12,
@@ -41,34 +41,36 @@
   },
   "CentralSystemFrontEnd": {
     "protocol": "http",
-    "host": "localhost",
+    "host": "0.0.0.0",
     "port": 3080
   },
   "CentralSystemServer": {
     "protocol": "http",
-    "host": "server",
+    "host": "0.0.0.0",
     "port": 81
   },
   "OCPIService": {
     "protocol": "http",
-    "host": "server",
+    "host": "0.0.0.0",
     "port": 9090,
     "debug": false
   },
   "ODataService": {
     "protocol": "http",
-    "host": "server",
+    "host": "0.0.0.0",
     "port": 9292,
     "debug": false
   },
   "WSDLEndpoint": {
-    "baseUrl": "http://server:8000"
+    "baseSecureUrl": "http://0.0.0.0:8000"
   },
   "JsonEndpoint": {
-    "baseUrl": "ws://server:8010"
+    "baseSecureUrl": "",
+    "baseUrl": "ws://0.0.0.0:8010"
   },
   "OCPIEndpoint": {
-    "baseUrl": "http://server:9090"
+    "baseSecureUrl": " ",
+    "baseUrl": "http://0.0.0.0:9090"
   },
   "AsyncTask": {
     "active": true,

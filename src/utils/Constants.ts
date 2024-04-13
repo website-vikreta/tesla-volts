@@ -470,7 +470,7 @@ export default class Constants {
   public static readonly AFIREV_MINIMAL_CONSUMPTION_THRESHOLD = 500; // Minimal consumption - 0.5 kW.h
 
   /* App Info for STRIPE */
-  public static readonly STRIPE_APP_NAME = 'Open e-Mobility';
+  public static readonly STRIPE_APP_NAME = 'TeslaVolts';
   public static readonly STRIPE_PARTNER_ID = 'TECH-000685';
   // public static readonly STRIPE_API_VERSION = '2020-08-27';
   public static readonly STRIPE_API_VERSION = '2022-11-15';
